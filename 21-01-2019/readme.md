@@ -14,9 +14,13 @@ Another examples :
 > This is for *informal* term, do not use in writing formal paper.
 
 - *contraction* : meaning combine to words become 1, in the process some letters is removed.
-"are not" : "aren't"
+```
+"are not" : `aren't`
 "I would" : "I'd"
 "They have" : "they've"
+```
 
 - *Posession* of a thing that belong to somebody
+```
 "ST. James's Park"
+```
