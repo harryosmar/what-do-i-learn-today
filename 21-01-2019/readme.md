@@ -31,7 +31,7 @@ Problem : How to clean up your local repository by removing *unreachable objects
 
 > Question : How this is happened ? How the commits is not accessable from branch/tag ?
 
-> Answer : When You do `git hard reset commit-hashcode` or `squash` the commits become one. All the previos commits still there. Git still keep it. That's is way so hard to lose data in git repository. You can try `git reflog` command to set the changes in your branches commits.
+> Answer : When You do `git hard reset commit-hashcode` or `squash` the commits become one. All the previous commits still there. Git still keep it. That is why, is so hard to lose data in git repository. You can try `git reflog` command to set the changes in your branches commits.
 
 Solution to fix `*unreachable objects* 
 
