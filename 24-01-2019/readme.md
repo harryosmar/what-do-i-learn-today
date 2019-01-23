@@ -2,7 +2,7 @@
 
 ## PHP Magic Method __invoke
 
-PHP magic method `__invoke` will make the `class instantiation`/`object` can be called(`callable`) like a `function`.
+PHP magic method `__invoke` will make the `class instantiation`/`object` can be called(`callable`), just like a `function`.
 
 ```php
 <?php
