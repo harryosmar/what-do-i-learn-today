@@ -10,8 +10,14 @@ The claims in a JWT are `encoded` as a
 
 Enabling the claims to be digitally signed.
 
-### JWT structure
+* [JWT structure](#jwt-structure)
+    * [JOSE Header](#jose)
+    * [Claim Set / Payload](#claim-set)
+    * [Signature](#signature)
+* [Signed JWT : JWS and JWE](#jws-and-JWE)
+* [Unsecured JWT](#unsecured-jWT)
 
+### JWT structure
 
 ![validation structure](https://raw.githubusercontent.com/harryosmar/what-do-i-learn-today/master/02-02-2019/images/jwt-debug.jpg)
 
