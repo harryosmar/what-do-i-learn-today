@@ -14,8 +14,9 @@ Enabling the claims to be digitally signed.
     * [JOSE Header](#jose)
     * [Claim Set / Payload](#claim-set)
     * [Signature](#signature)
-* [Signed JWT : JWS and JWE](#jws-and-JWE)
-* [Unsecured JWT](#unsecured-jWT)
+* [Signed JWT : JWS and JWE](#jws-and-jwe)
+* [Unsecured JWT](#unsecured-jwt)
+* [Other Links](#other-links)
 
 ### JWT structure
 
@@ -122,4 +123,9 @@ Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/mas
 
 > The "identity provider" can include additional elements into the JWT claim set.
 
-[source click here](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3).
+### Other Links
+- https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3
+- https://jwt.io/#debugger-io
+- https://github.com/Spomky-Labs/jose
+- http://php.net/manual/en/function.openssl-sign.php
+- http://php.net/manual/en/function.hash.php
