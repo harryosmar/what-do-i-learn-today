@@ -12,6 +12,9 @@ Enabling the claims to be digitally signed.
 
 ### JWT structure
 
+
+![validation structure](https://raw.githubusercontent.com/harryosmar/what-do-i-learn-today/master/02-02-2019/images/jwt-debug.jpg)
+
 Sample `encoded` `JSON Object` of JWT from Google OpenID
 
 ```
