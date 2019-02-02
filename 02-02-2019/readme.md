@@ -112,6 +112,8 @@ output
 }
 ```
 
+> The "identity provider" can include additional elements into the JWT claim set.
+
 ### Signature
 
 Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/master/src/Algorithm/Signature/RS256.php) as explained in [Jose Header](#jose).
@@ -120,8 +122,6 @@ Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/mas
 - [`openssl`](http://php.net/manual/en/function.openssl-sign.php) with parameters : 
     - `private` key and
     - `signature_alg` : `sha256`.
-
-> The "identity provider" can include additional elements into the JWT claim set.
 
 ### Other Links
 - https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3
