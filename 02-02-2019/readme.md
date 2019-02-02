@@ -37,7 +37,7 @@ TVKv-pdyvk2gW8sGsCbsnkqsrS0T-H00xnY6ETkIfgIxfotvFn5IwKm3xyBMpy0FFe0Rb5Ht8AEJV6Pd
 Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/master/src/Algorithm/Signature/RS256.php) as explained in [Jose Header](#jose).
 
 `RS256` algo wil use 
-- [`openssl`](`http://php.net/manual/en/function.openssl-sign.php`) with parameters : 
+- [`openssl`](http://php.net/manual/en/function.openssl-sign.php) with parameters : 
     - `private` key and
     - `signature_alg` : `sha256`.
 
