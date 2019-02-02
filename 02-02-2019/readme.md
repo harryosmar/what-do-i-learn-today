@@ -2,6 +2,14 @@
 
 ## JWT
 
+JSON Web Token (JWT) is a compact, URL-safe means of representing [`claims`](#claim-set) to be transferred between two parties.
+
+The claims in a JWT are `encoded` as a 
+- `JSON object` that is used as the payload of a `JSON Web Signature (JWS)` structure or
+- as the `plaintext` of a `JSON Web Encryption (JWE)` structure
+
+Enabling the claims to be digitally signed.
+
 ### JWT structure
 
 Sample JWT from Google OpenID
