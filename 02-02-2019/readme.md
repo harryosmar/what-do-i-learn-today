@@ -12,7 +12,7 @@ Enabling the claims to be digitally signed.
 
 * [JWT structure](#jwt-structure)
     * [JOSE Header](#jose)
-    * [Claim Set / Payload](#claim-set)
+    * [Claim Set](#claim-set)
     * [Signature](#signature)
 * [Signed JWT : JWS and JWE](#jws-and-jwe)
 * [Unsecured JWT](#unsecured-jwt)
@@ -116,9 +116,11 @@ output
 
 ### Signature
 
+Signature used as `sign` which make sure that the data transfered between 2 parties is secure, data integrity is protected/encrypted.
+
 The signature parameters :
 - `private` key
-- data : [`payload/claim set`](#claim-set) , header [`jose`](#jose)
+- data : [`claim set`](#claim-set) , header [`jose`](#jose)
 - `algo` which is defined in [`jose header`](#jose)
 If one of the parameter is changed, the signature will be changes too.
 
