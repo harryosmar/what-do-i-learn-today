@@ -123,7 +123,17 @@ Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/mas
     - `private` key and
     - `signature_alg` : `sha256`.
 
+`RS256` rsa encryption, which use pair of `private` and `public` key.
+- The `private` key used to `sign`
+- The `public` key used to `verify`
+
+
+The example of [`RS256 Test`](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/RS256Test.php).
+- The `private` key example for this test case [private.key](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/private.key)
+- The `public` key for this test case [public.key](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/public.key)
+
 ### Other Links
+- https://tools.ietf.org/html/rfc7519
 - https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3
 - https://jwt.io/#debugger-io
 - https://github.com/Spomky-Labs/jose
