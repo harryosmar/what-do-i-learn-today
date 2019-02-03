@@ -116,7 +116,7 @@ output
 
 ### Signature
 
-Signature used as a digital `sign`, which make sure that the data transfered between 2 parties, is secure : data integrity is protected/encrypted.
+Signature used as a digital `sign`, which make sure that the data transfered between 2 parties, is secured : data integrity is protected/encrypted.
 
 The signature parameters :
 - `private` key
