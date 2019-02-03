@@ -17,6 +17,7 @@ Enabling the claims to be digitally signed.
 * [Signed JWT : JWS and JWE](#jws-and-jwe)
 * [Unsecured JWT](#unsecured-jwt)
 * [Other Links](#other-links)
+* [JWT Server](#jwt-server)
 
 ### JWT structure
 
@@ -142,6 +143,10 @@ Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/mas
 The example of [`RS256 Test`](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/RS256Test.php).
 - The `private` key example for this test case [private.key](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/private.key)
 - The `public` key for this test case [public.key](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/public.key)
+
+## JWT Server
+
+Example of JWT Server using algo `RS256` : [https://github.com/harryosmar/php-bootstrap/tree/jwt-server](https://github.com/harryosmar/php-bootstrap/tree/jwt-server)
 
 ### Other Links
 - https://tools.ietf.org/html/rfc7519
