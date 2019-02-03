@@ -10,3 +10,4 @@
 		* [Magic Method __invoke](https://github.com/harryosmar/what-do-i-learn-today/tree/master/24-01-2019#php-magic-method-__invoke)
 * JWT
 	* [introduction](https://github.com/harryosmar/what-do-i-learn-today/tree/master/02-02-2019#jwt)
+	* [PHP JWT Server](https://github.com/harryosmar/php-bootstrap/tree/jwt-server)
