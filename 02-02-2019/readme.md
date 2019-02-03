@@ -116,6 +116,12 @@ output
 
 ### Signature
 
+The signature parameters :
+- `private` key
+- data : [`payload/claim set`](#claim-set) , header [`jose`](#jose)
+- `algo` which is defined in [`jose header`](#jose)
+If one of the parameter is changed, the signature will be changes too.
+
 Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/master/src/Algorithm/Signature/RS256.php) as explained in [Jose Header](#jose).
 
 `RS256` algo wil use 
@@ -123,7 +129,7 @@ Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/mas
     - `private` key and
     - `signature_alg` : `sha256`.
 
-`RS256` rsa encryption, which use pair of `private` and `public` key.
+`RS256` use `rsa` encryption, which use pair of `private` and `public` key.
 - The `private` key used to `sign`
 - The `public` key used to `verify`, see in this jwt-debug sample
     - [with valid public key](https://jwt.io/#debugger-io?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.TCYt5XsITJX1CxPCT8yAV-TVkIEq_PbChOMqsLfRoPsnsgw5WEuts01mq-pQy7UJiN5mgRxD-WUcX16dUEMGlv50aqzpqh4Qktb3rk-BuQy72IFLOqV0G_zS245-kronKb78cPN25DGlcTwLtjPAYuNzVBAh4vGHSrQyHUdBBPM&publicKey=-----BEGIN%20PUBLIC%20KEY-----%0AMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdlatRjRjogo3WojgGHFHYLugd%0AUWAY9iR3fy4arWNA1KoS8kVw33cJibXr8bvwUAUparCwlvdbH6dvEOfou0%2FgCFQs%0AHUfQrSDv%2BMuSUMAe8jzKE4qW%2BjK%2BxQU9a03GUnKHkkle%2BQ0pX%2Fg6jXZ7r1%2FxAK5D%0Ao2kQ%2BX5xK9cipRgEKwIDAQAB%0A-----END%20PUBLIC%20KEY-----)
