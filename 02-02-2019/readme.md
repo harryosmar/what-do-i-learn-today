@@ -122,13 +122,14 @@ The signature parameters :
 - `private` key
 - data : [`claim set`](#claim-set) , header [`jose`](#jose)
 - `algo` which is defined in [`jose header`](#jose)
+
 If one of the parameter is changed, the signature will be changes too.
 
 Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/master/src/Algorithm/Signature/RS256.php) as explained in [Jose Header](#jose).
 
 `RS256` algo wil use 
 - [`openssl`](http://php.net/manual/en/function.openssl-sign.php) with parameters : 
-    - `private` key and
+    - `private` key
     - `signature_alg` : `sha256`.
 
 `RS256` use `rsa` encryption, which use pair of `private` and `public` key.
