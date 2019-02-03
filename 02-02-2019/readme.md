@@ -123,7 +123,7 @@ The signature parameters :
 - data : [`claim set`](#claim-set) , header [`jose`](#jose)
 - `algo` which is defined in [`jose header`](#jose)
 
-If one of the parameter is changed, the signature will be changes too.
+If one of the parameter is changed, the signature will be changed too.
 
 Google OpenID use `alg` : [`RS256`](https://github.com/Spomky-Labs/jose/blob/master/src/Algorithm/Signature/RS256.php) as explained in [Jose Header](#jose).
 
