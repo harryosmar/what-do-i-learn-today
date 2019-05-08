@@ -20,3 +20,4 @@
   - [Hbase](https://hbase.apache.org/)
   - [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 - Log, Monitoring, Alert : [ELK](https://www.elastic.co/elk-stack), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/)
+- Graph Database & GraphQL resources
