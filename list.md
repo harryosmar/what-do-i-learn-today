@@ -1,5 +1,5 @@
 # On progress but not complete yet
-- Docker Kubernetes on AWS
+- Docker Kubernetes on AWS, need to this too [AWS intro](https://www.udemy.com/learn-amazon-web-services-the-complete-introduction/)
 - React Test
 - Complete all RabbitMQ examples : pubsub, routing, topic
 
@@ -20,5 +20,4 @@
   - [Hbase](https://hbase.apache.org/)
   - [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 - Log, Monitoring, Alert, timeseries : [ELK](https://www.elastic.co/elk-stack), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), influxDB
-- Graph Database & GraphQL resources
-- [AWS intro](https://www.udemy.com/learn-amazon-web-services-the-complete-introduction/)
+- Graph Database & GraphQL/Athena resources
