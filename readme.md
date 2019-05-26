@@ -20,7 +20,7 @@
 * JWT
 	* [introduction](https://github.com/harryosmar/what-do-i-learn-today/tree/master/02-02-2019/readme.md#jwt)
 	* [PHP JWT Server](https://github.com/harryosmar/php-bootstrap/tree/jwt-server)
-	* [JWT Signature](https://github.com/harryosmar/sample-phpunit-test/tree/jwt-signature)
+	* [JWT Signature](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/RS256Test.php)
 * Terms
 	* [Idempotence](https://github.com/harryosmar/what-do-i-learn-today/tree/master/05-02-2019/readme.md#idempotence)
 * Docker
