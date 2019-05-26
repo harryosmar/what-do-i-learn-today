@@ -1,5 +1,9 @@
 # Menu
 
+* [es6 starting guide](https://github.com/harryosmar/es6-guides-getting-started)
+	* [unit test with jest](https://github.com/harryosmar/es6-guides-getting-started/tree/jest)
+	* [promise & async-await](https://github.com/harryosmar/es6-guides-getting-started/tree/promise)
+* [React-Redux](https://github.com/harryosmar/the-complete-react-course-with-redux)
 * Git
 	* [prune](https://github.com/harryosmar/what-do-i-learn-today/blob/master/21-01-2019/readme.md#git-prune)
 	* [remote prune](https://github.com/harryosmar/what-do-i-learn-today/blob/master/21-01-2019/readme.md#git-remote-prune)
