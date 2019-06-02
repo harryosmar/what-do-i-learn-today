@@ -3,6 +3,21 @@
 * [es6 starting guide](https://github.com/harryosmar/es6-guides-getting-started)
 	* [unit test with jest](https://github.com/harryosmar/es6-guides-getting-started/tree/jest)
 	* [promise & async-await](https://github.com/harryosmar/es6-guides-getting-started/tree/promise)
+		* Resolve
+			* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAlwaysResolved.js)
+			* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L40)
+		* Reject
+			* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAlwaysRejected.js)
+			* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L16)
+		* Promise All
+			* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAll.js)
+			* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L22)
+		* Promise Race
+			* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseRace.js)
+			* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L33)
+		* Async Await
+			* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/asyncAwait.js)
+			* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L40)
 * [typescript](https://github.com/harryosmar/understanding-typescript)
 * [React-Redux](https://github.com/harryosmar/the-complete-react-course-with-redux)
 * [Git](https://git-scm.com/)
