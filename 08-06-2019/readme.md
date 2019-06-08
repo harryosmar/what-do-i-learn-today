@@ -86,6 +86,8 @@ A :
 
 Example :
 
+## Variable Hoisting : undeclared variable
+
 3. `undeclared` variable is `assigned` inside a function, the called outside of function scope
 
 ```
