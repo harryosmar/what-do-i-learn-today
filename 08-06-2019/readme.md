@@ -1,6 +1,6 @@
 # Hoisting Javascript
 
-- [Variable Hoisting]9#variable-hoisting)
+- [Variable Hoisting](#variable-hoisting)
   - [Variable Hoisting : global scope](#variable-hoisting--global-scope)
   - [Variable Hoisting : function scope](#variable-hoisting--function-scope)
   - [Variable Hoisting : undeclared variable](#variable-hoisting--undeclared-variable)
