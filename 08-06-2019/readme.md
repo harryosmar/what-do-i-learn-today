@@ -173,6 +173,8 @@ var expression = function() {
 };
 ```
 
+same with this 
+
 ```js
 var expression; // undefined
 expression(); //Output: "TypeError: expression is not a function
