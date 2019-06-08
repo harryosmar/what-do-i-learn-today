@@ -21,7 +21,7 @@ function hoist() {
 }
 ```
 
-Before getting start, what need to know
+Before getting started, what need to know
 
 ```
 var a;
