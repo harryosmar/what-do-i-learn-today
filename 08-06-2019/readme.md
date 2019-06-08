@@ -1,5 +1,13 @@
 # Hoisting Javascript
 
+- [Variable Hoisting]9#variable-hoisting)
+  - [Variable Hoisting : global scope](#variable-hoisting--global-scope)
+  - [Variable Hoisting : function scope](#variable-hoisting--function-scope)
+  - [Variable Hoisting : undeclared variable](#variable-hoisting--undeclared-variable)
+  - [prevent use of undeclared variable : use strict](#prevent-use-of-undeclared-variable--use-strict)
+- [Function Hoisting](#function-hoisting)
+  - [Function declarations](#function-declarations)
+  - [Function expression](#function-expression)
 
 Q : What is Hoisting ?
 
