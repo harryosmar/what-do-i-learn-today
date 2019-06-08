@@ -12,7 +12,7 @@ Q : What is the scope means ?
 
 A :
 
-```
+```js
 // global scope
 
 function hoist() {
@@ -23,7 +23,7 @@ function hoist() {
 
 Before getting started, what need to know
 
-```
+```js
 var a;
 // default value of for declared variable is undefined
 console.log(a); // undefined
@@ -43,7 +43,7 @@ Example :
 
 1. Global scope : When the `a`, `b` is called before the `declaration`. It's will return `undefined` value for `a` and `b`.
 
-```
+```js
 console.log(a, b, a + b); // undefined undefined NaN
 var a =10;
 var b =5;
@@ -51,7 +51,7 @@ var b =5;
 
 same with this
 
-```
+```js
 // hoisting the declaration : move to the top of global scope
 var a;
 var b;
@@ -65,7 +65,7 @@ b =5;
 
 2. Function scope : When `messsage` is called it will be hoisted to the top of function scope
 
-```
+```js
 function hoist() {
   console.log(message); // undefined
   var message='Hoisting is all the rage!'
@@ -76,7 +76,7 @@ hoist();
 
 same with this
 
-```
+```js
 function hoist() {
   // hoisting the declaration : move to the top of function scope
   var message;
@@ -103,7 +103,7 @@ Example :
 
 3. `undeclared` variable is `assigned` inside a function, the called outside of function scope
 
-```
+```js
 function hoist() {
   a = 20;
   var b = 100;
@@ -118,9 +118,17 @@ console.log(a); // 20
 console.log(b);  // Uncaught ReferenceError: b is not defined
 ```
 
+## prevent use of undeclared variable : use strict
+
 Q : How to prevent using of `undeclared` variable, is that a good practice ?
 
 A : Of course not, hoisting the `undeclared` variable become `global`, will make the variable so hard to trace. To avoid use of it use `'use strict';` mode. So instead of hoisting the `undeclared` varibale with value `undefined`. It will throw `ReferenceError` when the variable is called.
 
+```js
+'use strict';
+
+console.log(hoist); // Output: ReferenceError: hoist is not defined
+hoist = 'Hoisted'; 
+```
 
 ## Function Hoisting
