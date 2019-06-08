@@ -21,6 +21,19 @@ function hoist() {
 }
 ```
 
+Before getting start, what need to know
+
+```
+var a;
+// default value of for declared variable is undefined
+console.log(a); // undefined
+console.log(typeof a); // undefined
+
+// when trying to access undeclared variable it will give ReferenceError
+console.log(b); // Uncaught ReferenceError: b is not defined
+console.log(typeof b); // undefined
+```
+
 ## Variable Hoisting
 
 
@@ -107,7 +120,7 @@ console.log(b);  // Uncaught ReferenceError: b is not defined
 
 Q : How to prevent using of `undeclared` variable, is that a good practice ?
 
-A : Of course not, hoisting the `undeclared` variable become `global`, will make the variable so hard to trace. To avoid use of it use `'use strict';` mode
+A : Of course not, hoisting the `undeclared` variable become `global`, will make the variable so hard to trace. To avoid use of it use `'use strict';` mode. So instead of hoisting the `undeclared` varibale with value `undefined`. It will throw `ReferenceError` when the variable is called.
 
 
 ## Function Hoisting
