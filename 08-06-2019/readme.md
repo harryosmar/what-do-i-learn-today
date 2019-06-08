@@ -132,3 +132,45 @@ hoist = 'Hoisted';
 ```
 
 ## Function Hoisting
+
+### Function declarations
+
+```js
+hoisted(); // Output: "This function has been hoisted."
+
+function hoisted() {
+  console.log('This function has been hoisted.');
+};
+```
+
+same with this 
+
+
+```js
+function hoisted() {
+  console.log('This function has been hoisted.');
+};
+hoisted(); // Output: "This function has been hoisted."
+```
+
+### Function expression
+
+But it will not work when we are using function expression.
+
+```js
+expression(); //Output: "TypeError: expression is not a function
+
+var expression = function() {
+  console.log('Will this work?');
+};
+```
+
+```js
+var expression; // undefined
+expression(); //Output: "TypeError: expression is not a function
+
+expression = function() {
+  console.log('Will this work?');
+};
+```
+
