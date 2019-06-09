@@ -110,10 +110,9 @@ A : a higher-order function, which is returning a variation/new version of the `
 
 ## once, singletion function
 
-A function which is only be called once.
+A version of a function which is can only be called once.
 
 ```js
-// function foo should only be called once, the next call should be directly return 2
 function foo() {
   return 1 + 1;
 }
@@ -133,6 +132,7 @@ function once(fn) {
   }
 }
 
+// function foo version, should only be called once, the next call should be directly return 2
 const fooOnce = once(foo);
 
 console.log(fooOnce()); //output "1st time called" 2
@@ -142,7 +142,6 @@ console.log(fooOnce()); // 2
 
 
 
-
-
 ## Links :
+- https://www.freecodecamp.org/news/here-are-a-few-function-decorators-you-can-write-from-scratch-488549fe8f86/
 - https://www.freecodecamp.org/news/here-are-a-few-function-decorators-you-can-write-from-scratch-488549fe8f86/
