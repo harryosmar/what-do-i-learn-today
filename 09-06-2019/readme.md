@@ -7,7 +7,7 @@ Q : What does it means "Function as first class object"
 
 A :
 
-1. function can be stored in `variable`, `object`, `array`
+### 1. function can be stored in `variable`, `object`, `array`
 ```js
 function foo() {
 }
@@ -24,7 +24,7 @@ const myObjFoo = {
 const myArrFoo = [foo];
 ```
 
-2. function can be used as an input/argument for another function
+### 2. function can be used as an input/argument for another function
 
 ```js
 function foo() {
@@ -39,7 +39,7 @@ function bar(foo) {
 bar(); // output: foo bar
 ```
 
-3. function can be returned from another function
+### 3. function can be returned from another function
 
 ```js
 function createGenerator(){  
