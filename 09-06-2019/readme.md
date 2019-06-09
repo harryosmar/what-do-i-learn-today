@@ -6,6 +6,8 @@
   - Usage of : Function as first class object
     - [Higher order functions](#higher-order-functions)
     - [Use Closure for private state/static variable](#use-closure-for-private-statestatic-variable)
+    - [Decorators](#decorators)
+      - [once, singletion function](#once-singletion-function)
 
 # Function as first class object
 
