@@ -99,6 +99,46 @@ fooCounter(); // 2
 fooCounter(); // 3
 ```
 
+## Decorators
+
+Q : What is decorators ?
+
+A : a higher-order function, which is returning a variation/new version of the `input/argument function`.
+
+
+## once, singletion function
+
+A function which is only be called once.
+
+```js
+// function foo should only be called once, the next call should be directly return 2
+function foo() {
+  return 1 + 1;
+}
+
+function once(fn) {
+  let shouldBeCalled = true;
+  let returnValue;
+  
+  return function runOnce() {
+    if (shouldBeCalled) {
+      console.log('1st time call');
+      shouldBeCalled = false;
+      returnValue = fn.apply(this, arguments);
+    }
+
+    return returnValue;
+  }
+}
+
+const fooOnce = once(foo);
+
+console.log(fooOnce()); //output "1st time called" 2
+console.log(fooOnce()); // 2
+console.log(fooOnce()); // 2
+```
+
+
 
 
 
