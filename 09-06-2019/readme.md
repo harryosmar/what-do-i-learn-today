@@ -8,6 +8,7 @@
     - [Use Closure for private state/static variable](#use-closure-for-private-statestatic-variable)
     - [Decorators](#decorators)
       - [once, singletion function](#once-singletion-function)
+      - [partial](#partial)
 
 # Function as first class object
 
@@ -108,7 +109,7 @@ Q : What is decorators ?
 A : a higher-order function, which is returning a variation/new version of the `input/argument function`.
 
 
-## once, singletion function
+### once, singletion function
 
 A version of a function which is can only be called once.
 
@@ -140,7 +141,24 @@ console.log(fooOnce()); // 2
 console.log(fooOnce()); // 2
 ```
 
+### partial
 
+using [Function​.prototype​.bind()
+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind), to create new partial version of a function.
+
+```js
+function log(level, message){
+  console.log(level, message);
+}
+
+const logInfo = log.bind(null, 'info');
+const logError = log.bind(null, 'error');
+const logWarning = log.bind(null, 'warning');
+
+logInfo("this is a message"); // output: info this is a message
+logError("this is a message"); // output: error this is a message
+logWarning("this is a message"); // output: warning this is a message
+```
 
 ## Links :
 - https://www.freecodecamp.org/news/here-are-a-few-function-decorators-you-can-write-from-scratch-488549fe8f86/
