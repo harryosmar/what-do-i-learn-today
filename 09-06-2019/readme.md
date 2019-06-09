@@ -1,5 +1,10 @@
 - [Function as first class object](#function-as-first-class-object)
-  - [Higher order functions](#higher-order-functions)
+  - [1. function can be stored in variable, object, array](#1-function-can-be-stored-in-variable-object-array)
+  - [2. function can be used as an input/argument for another function](#2-function-can-be-used-as-an-inputargument-for-another-function)
+  - [3. function can be returned from another function](#3-function-can-be-returned-from-another-function)
+  - Usage of : Function as first class object
+    - [Higher order functions](#higher-order-functions)
+    - [Use Closure for private state/static variable](#use-closure-for-private-statestatic-variable)
 
 # Function as first class object
 
