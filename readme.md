@@ -1,10 +1,10 @@
 # Menu
 
 * [es6 starting guide](https://github.com/harryosmar/es6-guides-getting-started)
+	* [Function first class object, Higher order function, decorator, singleton/closure](https://github.com/harryosmar/what-do-i-learn-today/blob/master/09-06-2019/readme.md)
 	* [Hoisting Javascript](https://github.com/harryosmar/what-do-i-learn-today/blob/master/08-06-2019/readme.md)
 	* [unit test with jest](https://github.com/harryosmar/es6-guides-getting-started/tree/jest)
 	* [promise & async-await](https://github.com/harryosmar/es6-guides-getting-started/tree/promise)
-	* [Function first class object, Higher order function, decorator, singleton/closure](https://github.com/harryosmar/what-do-i-learn-today/blob/master/09-06-2019/readme.md)
 * [typescript](https://github.com/harryosmar/understanding-typescript)
 * [React-Redux](https://github.com/harryosmar/the-complete-react-course-with-redux)
 * [Git](https://git-scm.com/)
