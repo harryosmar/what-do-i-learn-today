@@ -52,7 +52,6 @@ console.log(createGenerator()()); // 1
 ```
 
 
-
 ## Higher order functions
 
 By using the characteristic of "first class object", we can create  `Higher order functions`
@@ -64,6 +63,36 @@ A :
 A function that 
 - takes another functions as an input/argument : 2nd characteristic of "first class object"
 - and/or return a function : 3rd characteristic of "first class object"
+
+
+Example :
+- [Array​.prototype​.filter()
+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [Array​.prototype​.map()
+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Array​.prototype​.reduce()
+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- etc...
+
+## Use Closure for private state/static variable
+
+When we want to have to keep track how many times that a function is called. Is required to store the `n call` on `state` variable.
+
+```js
+function getFooCounter() {
+  let calledCount = 0;
+  return function foo() {
+    return ++calledCount;
+  }
+}
+
+let fooCounter = getFooCounter();
+
+fooCounter(); // 1
+fooCounter(); // 2
+fooCounter(); // 3
+```
+
 
 
 
