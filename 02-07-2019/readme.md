@@ -23,7 +23,7 @@
 
 ### Scrum
 
-- Has iterate [Sprint](#sprint) cycle
+- Has iterative [Sprint](#sprint) cycle
 - There is 3 main [roles](#roles) :
 	- [product owner](#product-owner)
 	- [scrum master](#scrum-master)
