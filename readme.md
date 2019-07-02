@@ -1,5 +1,9 @@
 # Menu
 
+* Project Development Guideline
+	* [Agile](https://github.com/harryosmar/what-do-i-learn-today/tree/master/02-07-2019#agile)
+		* [Scrum](https://github.com/harryosmar/what-do-i-learn-today/tree/master/02-07-2019#scrum)
+		* [Kanban](https://github.com/harryosmar/what-do-i-learn-today/tree/master/02-07-2019#kanban)
 * [es6 starting guide](https://github.com/harryosmar/es6-guides-getting-started)
 	* [Function first class object, Higher order function, decorator, singleton/closure](https://github.com/harryosmar/what-do-i-learn-today/blob/master/09-06-2019/readme.md)
 	* [Hoisting Javascript](https://github.com/harryosmar/what-do-i-learn-today/blob/master/08-06-2019/readme.md)
