@@ -8,8 +8,8 @@
 			- [scrum master](#scrum-master)
 			- [team development](#team-development)
 	- [Kanban](#kanban)
-- [Scrum vs Kanban](#scrum-vs-kanban)
-- [Minimum viable product](#mvp)
+	- [Scrum vs Kanban](#scrum-vs-kanban)
+	- [Minimum viable product](#mvp)
 
 ## Agile
 
@@ -100,6 +100,8 @@ The development/engineer team, usually consist of : developer, designer User Int
 ## MVP
 
 A minimum viable product (MVP) is a product with just enough features to satisfy early customers, and to provide feedback for future product development.
+
+![MVP](https://raw.githubusercontent.com/harryosmar/what-do-i-learn-today/master/02-07-2019/mvp.png)
 
 
 ## Links
