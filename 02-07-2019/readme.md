@@ -28,8 +28,8 @@
 	- [product owner](#product-owner)
 	- [scrum master](#scrum-master)
 	- [team development](#team-development)
-- Should be there in no change on the current running [Sprint](#sprint), changes will wait until the next [Sprint](#sprint). This rule enforce by [scrum master](#scrum-master)
-- Release in the end of sprint
+- Should not be any changes on the current running [Sprint](#sprint). Changes need to wait until the next [Sprint](#sprint). This rule enforce by [scrum master](#scrum-master)
+- Release in the end of [sprint](#sprint)
 - concerned on "more work done faster" to achieve [MVP/Minimum viable product](#mvp).
 - Artifacts/Result :
 	- Product Backlog
