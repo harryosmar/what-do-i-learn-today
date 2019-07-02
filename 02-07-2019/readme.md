@@ -14,7 +14,7 @@
 ## Agile
 
 - Type of project development which focus on flexibility, adaptive to changes. 
-- Agile breaks the project into smaller
+- Agile breaks the project into smaller parts
 - Agile has 2 methodologies/frameworks :
 	- [Scrum](#scrum)
 	- [Kanban](#kanban)
