@@ -1,6 +1,7 @@
 - [Pre-requirement Setup how to boot from usb](#pre-requirement-setup-how-to-boot-from-usb)
 - [Windows 10 Dell XPS Clean Installation](#dell-xps---windows-10-recovery---clean-install)
-- [Ubuntu dual Dell XPS boot installation](#)
+- [Ubuntu dual Dell XPS boot installation](##ubuntu-dual-dell-xps-boot-installation)
+   - [Setup Ubuntu as a working space](#)
 
 ## Pre-requirement Setup how to boot from usb
 
@@ -35,6 +36,10 @@
    - `/root` : `100000` MB,`ext 4`, type `logical`
    - `/home` : the remaining, `ext 4`, type `primary`
 4. Finish the installation
+
+## Setup Ubuntu as a working space
+
+
 
 ### Links
 
