@@ -1,6 +1,8 @@
-# DELL XPS - Windows 10 Recovery - Clean Install
+- [Pre-requirement Setup how to boot from usb](#pre-requirement-setup-how-to-boot-from-usb)
+- [Windows 10 Dell XPS Clean Installation](#dell-xps---windows-10-recovery---clean-install)
+- [Ubuntu dual Dell XPS boot installation](#)
 
-## Setup how to boot from usb
+## Pre-requirement Setup how to boot from usb
 
 1. Start the system while tapping F2 key to enter the BIOS
 2. Change Boot List option to Legacy from UEFI
@@ -9,7 +11,7 @@
 5. Navigate to Exit and "Exit Saving Changes"
 
 
-## Clean Installation process
+## DELL XPS - Windows 10 Recovery - Clean Install
 
 1. Use Dell Windows 10 DVD/USB Media
 2. Reboot and use the F12 boot menu option
@@ -24,6 +26,6 @@
 9. Dell screen – will show "recovering this PC XX%"
 10. The system will Reboot to Windows 10 when the installation is finished
 
-## Links
+### Links
 
 - https://www.dell.com/support/article/id/en/iddhs1/sln300635/how-to-install-windows-10-from-a-dell-windows-10-recovery-dvd?lang=en
