@@ -39,10 +39,54 @@
 
 ## Setup Ubuntu as a working space
 
+```
+sudo apt-get update -y \
+   && sudo apt-get install git \
+   && sudo apt install vim -y
+```
 
+### PHP
+
+```
+sudo apt-get install php7.2 -y
+```
+
+### Composer
+
+```
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+php -r "unlink('composer-setup.php');"
+```
+
+### Docker
+
+```
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+sudo apt  install docker-compose -y
+```
 
 ### Links
 
 - https://www.dell.com/support/article/id/en/iddhs1/sln300635/how-to-install-windows-10-from-a-dell-windows-10-recovery-dvd?lang=en
 - https://www.dell.com/support/article/id/en/iddhs1/sln301754/how-to-install-ubuntu-and-windows-8-or-10-as-a-dual-boot-on-your-dell-pc?lang=en#Installing
 - https://www.dell.com/support/article/id/en/iddhs1/sln151841/how-to-install-ubuntu-with-multiple-custom-partitions-on-your-dell-pc?lang=en
+- https://docs.docker.com/install/linux/docker-ce/ubuntu/
