@@ -26,6 +26,18 @@
 9. Dell screen – will show **recovering this PC XX%**
 10. The system will Reboot to Windows 10 when the installation is finished
 
+## Ubuntu dual Dell XPS boot installation
+
+1. Reboot and use the F12 boot menu option
+2. In installation option choose **something else**
+3. Set partition
+   - `/swap` : `32000` MB, `ext 4`, type `logical`
+   - `/root` : `100000` MB,`ext 4`, type `logical`
+   - `/home` : the remaining, `ext 4`, type `primary`
+4. Finish the installation
+
 ### Links
 
 - https://www.dell.com/support/article/id/en/iddhs1/sln300635/how-to-install-windows-10-from-a-dell-windows-10-recovery-dvd?lang=en
+- https://www.dell.com/support/article/id/en/iddhs1/sln301754/how-to-install-ubuntu-and-windows-8-or-10-as-a-dual-boot-on-your-dell-pc?lang=en#Installing
+- https://www.dell.com/support/article/id/en/iddhs1/sln151841/how-to-install-ubuntu-with-multiple-custom-partitions-on-your-dell-pc?lang=en
