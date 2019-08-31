@@ -23,7 +23,7 @@
 6. Choose Recover from a drive
 7. Choose "Fully clean drive"
 8. A pop up will appear, click the Recovery button
-9. Dell screen – will show "recovering this PC XX%"
+9. Dell screen – will show **recovering this PC XX%**
 10. The system will Reboot to Windows 10 when the installation is finished
 
 ### Links
