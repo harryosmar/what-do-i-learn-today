@@ -85,6 +85,16 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo apt  install docker-compose -y
 ```
 
+### Setup alias, and PATH Env
+
+```
+export PATH="~/Postman:~/PhpStorm-192.6262.66/bin:~/sublime_text_3:$PATH"
+
+alias postman="Postman";
+alias pstorm="phpstorm.sh";
+alias subl="sublime_text";
+```
+
 ### Links
 
 - https://www.dell.com/support/article/id/en/iddhs1/sln300635/how-to-install-windows-10-from-a-dell-windows-10-recovery-dvd?lang=en
