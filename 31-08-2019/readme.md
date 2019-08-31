@@ -40,16 +40,25 @@
 ## Setup Ubuntu as a working space
 
 ```
-sudo apt-get update -y \
-   && sudo apt-get install git \
-   && sudo apt install vim -y
+sudo apt-get update -y
+
+sudo apt-get install -y \
+   vim \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
 ```
 
 ### PHP
 
 ```
-sudo apt-get install php7.2 -y \
-   && sudo apt-get install php-xdebug
+sudo apt-get install -y \
+   php7.2 \
+   php-xdebug \
+   php7.2-xml \
+   php-mbstring
 ```
 
 ### Composer
@@ -64,13 +73,6 @@ php -r "unlink('composer-setup.php');"
 ### Docker
 
 ```
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg-agent \
-    software-properties-common
-
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 sudo add-apt-repository \
