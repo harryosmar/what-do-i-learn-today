@@ -1,7 +1,12 @@
 - [Pre-requirement Setup how to boot from usb](#pre-requirement-setup-how-to-boot-from-usb)
 - [Windows 10 Dell XPS Clean Installation](#dell-xps---windows-10-recovery---clean-install)
-- [Ubuntu dual Dell XPS boot installation](##ubuntu-dual-dell-xps-boot-installation)
-   - [Setup Ubuntu as a working space](#)
+- [Ubuntu dual Dell XPS boot installation](#ubuntu-dual-dell-xps-boot-installation)
+   - [Setup Ubuntu as a working space](#setup-ubuntu-as-a-working-space)
+      - [PHP](#php)
+         - [Composer](#composer)
+         - [Xdebug Config](#xdebug-config)
+      - [Docker](#docker)
+      - [Setup alias, and PATH Env](#setup-alias-and-path-env)
 
 ## Pre-requirement Setup how to boot from usb
 
@@ -61,13 +66,26 @@ sudo apt-get install -y \
    php-mbstring
 ```
 
-### Composer
+#### Composer
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 php -r "unlink('composer-setup.php');"
+```
+
+#### Xdebug Config
+
+```
+xdebug.remote_enable=on
+xdebug.remote_autostart=true
+xdebug.remote_mode=req
+xdebug.remote_handler=dbgp
+xdebug.remote_host=192.168.0.8
+xdebug.idekey=PHPSTORM
+xdebug.remote_port=9001
+xdebug.remote_connect_back=1
 ```
 
 ### Docker
