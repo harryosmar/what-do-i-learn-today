@@ -5,6 +5,7 @@
       - [PHP](#php)
          - [Composer](#composer)
          - [Xdebug Config](#xdebug-config)
+      - [Node & NPM](#node-npm)
       - [Docker](#docker)
       - [Setup alias, and PATH Env](#setup-alias-and-path-env)
 
