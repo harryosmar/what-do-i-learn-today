@@ -129,7 +129,7 @@ sudo apt  install docker-compose -y
 ### Setup alias, and PATH Env
 
 ```
-export PATH="~/Postman:~/PhpStorm-192.6262.66/bin:~/sublime_text_3:$PATH"
+export PATH="~/Postman:~/PhpStorm-192.6262.66/bin:~/sublime_text_3:~/.composer/vendor/bin:$PATH"
 
 alias postman="Postman";
 alias pstorm="phpstorm.sh";
