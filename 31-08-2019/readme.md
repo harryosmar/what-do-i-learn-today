@@ -65,6 +65,7 @@ sudo apt-get install -y \
    php7.2 \
    php-xdebug \
    php7.2-xml \
+   php7.2-zip \
    php-mbstring
 ```
 
