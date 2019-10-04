@@ -40,7 +40,7 @@
 2. In installation option choose **something else**
 3. Set partition
    - `/swap` : `32000` MB, `ext 4`, type `logical`
-   - `/root` : `100000` MB,`ext 4`, type `logical`
+   - `/` : `100000` MB,`ext 4`, type `logical`
    - `/home` : the remaining, `ext 4`, type `primary`
 4. Finish the installation
 
