@@ -67,7 +67,8 @@ sudo apt-get install -y \
    php7.2-xml \
    php7.2-zip \
    php7.2-mysql \
-   php-mbstring
+   php-mbstring \
+   php-gd
 ```
 
 #### Composer
