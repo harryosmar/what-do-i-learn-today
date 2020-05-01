@@ -27,6 +27,9 @@
 	* [JWT Signature](https://github.com/harryosmar/sample-phpunit-test/blob/jwt-signature/tests/unit/RS256Test.php)
 * [Docker](https://www.docker.com/)
     * [React Web use Dockerfile, docker-compose.yml](https://github.com/harryosmar/react-docker)
+* Kafka
+    * [Kafka connect source & sink](https://github.com/harryosmar/kafka-connect)
+    * [Kafka pubsub and queue flow](https://github.com/harryosmar/what-do-i-learn-today/blob/master/01-05-2020/readme.md#kafka-pubsub-and-queue-flow)
 * English
 	* [Apostrophe](https://github.com/harryosmar/what-do-i-learn-today/blob/master/21-01-2019/readme.md#english-apostrophe)
 * Terms
