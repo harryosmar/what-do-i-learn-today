@@ -77,9 +77,6 @@
 			return float64(f)
 		}
 
-		var a Abser
-		f := MyFloat(-math.Sqrt2)
-
-		a = f  // a MyFloat implements Abser
+		var a Abser = MyFloat(-math.Sqrt2) // a MyFloat implements Abser
 	```
 - Interfaces are implemented implicitly. There is no explicit declaration of intent, **no "implements" keyword.**
