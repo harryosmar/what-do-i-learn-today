@@ -16,17 +16,45 @@
 - each go routine is a **thread**
 - go routines communicate with each other using the **channel**
 - channel blocking :
-  - sender : once go routine sends on a channel then the go routine will be blocked/waiting **until another go routine receive** what sent to the channel
-  - receiver : if the **channel is empty** the receiver go routine will be blocked/waiting
-  - Unbuffered Channels : 1 slot. Default .
-    ```go
-      myChan := make(chan string)
-    ```
-  - Buffered Channels : define number of slots available for the channel. It's usefull when the sender sends to channel more faster the receiver.
-    ```go
-      // asumption the receiver slower 3 times than sender
-      myChan := make(chan string, 3)
-    ```
+	- sender : once go routine sends on a channel then the go routine will be blocked/waiting **until another go routine receive** what sent to the channel
+  	- receiver : if the **channel is empty** the receiver go routine will be blocked/waiting
+  	- Unbuffered Channels : 1 slot. Default .
+	    ```go
+	      myChan := make(chan string)
+	    ```
+  	- Buffered Channels : define number of slots available for the channel. It's usefull when the sender sends to channel more faster the receiver.
+	    ```go
+	      // asumption the receiver slower 3 times than sender
+	      myChan := make(chan string, 3)
+	    ```
+- non-blocking sends on a channel
+	- Use the same `select case` structure to perform their non-blocking operations
+	- non-blocking read
+		```go
+			select {
+			 case msg := <- myChan:
+			  fmt.Println(msg)
+			 default:
+			  fmt.Println(“No Msg”)
+			}
+		```
+	- non-blocking sender
+		```go
+			select {
+			 case myChan <- “message”:
+			  fmt.Println(“sent the message”)
+			 default:
+			  fmt.Println(“no message sent”)
+			}
+		```
+	
+- Anonymous Go Routines.
+ ```go
+ 	// Anonymous go routine
+	go func() {
+	 fmt.Println("I'm running in my own go routine")
+	}()
+ ```
 
 
 ## pointer
