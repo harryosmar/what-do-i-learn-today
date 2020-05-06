@@ -59,4 +59,4 @@
 			p := &v
 		```
 		`p.Abs()` is interpreted as `(*p).Abs().`
-- In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both.
+- Choosing a value or pointer receiver. In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both.
