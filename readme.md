@@ -19,6 +19,7 @@
 	- [go routines](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#routines)
 	- [methods & pointer](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#pointer)
 	- [interface](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#interface)
+	- [Type](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#type)
 * PHP
 	* [Closure](https://github.com/harryosmar/sample-phpunit-test/blob/closure/tests/unit/CallbackTest.php)
 	* [Magic Method __invoke](https://github.com/harryosmar/what-do-i-learn-today/tree/master/24-01-2019/readme.md#php-magic-method-__invoke)
