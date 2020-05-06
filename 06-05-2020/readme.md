@@ -136,3 +136,14 @@
 - The empty interface. 
 	- An empty interface may hold values of any type.
 	- Empty interfaces are used by code that handles values of unknown type
+
+## Type
+
+- Type assertions
+	`t, ok := i.(T)`
+
+	```go
+		var i interface{} = "hello"
+		s, ok := i.(string) // s, ok : hello true
+		f, ok := i.(float64) // f, ok : 0, false
+	```
