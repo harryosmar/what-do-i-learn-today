@@ -31,4 +31,32 @@
 
 ## pointer
 
+- Methods and pointer indirection
+	-  Methods with **pointer receivers** take either a value or a pointer as the receiver when they are called
+		```go
+			type Vertex struct {
+				X, Y float64
+			}
+			
+			func (v *Vertex) Abs() float64 {
+				return math.Sqrt(v.X*v.X + v.Y*v.Y)
+			}
+			
+			var v Vertex
+		```
+		`v.Abs()` is interpreted as `(&v).Abs().`
+	-  Methods with **value receivers** take either a value or a pointer as the receiver when they are called
+		```go
+			type Vertex struct {
+				X, Y float64
+			}
+			
+			func (v Vertex) Abs() float64 {
+				return math.Sqrt(v.X*v.X + v.Y*v.Y)
+			}
+			
+			var v Vertex
+			p := &v
+		```
+		`p.Abs()` is interpreted as `(*p).Abs().`
 - In general, all methods on a given type should have either value or pointer receivers, but not a mixture of both.
