@@ -147,3 +147,9 @@
 		s, ok := i.(string) // s, ok : hello true
 		f, ok := i.(float64) // f, ok : 0, false
 	```
+- Stringers : a type that can describe itself as a string. It's like [php __toString() magic method](https://www.php.net/manual/en/language.oop5.magic.php#object.tostring)
+	```go
+		type Stringer interface {
+		    String() string
+		}
+	```
