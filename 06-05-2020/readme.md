@@ -99,7 +99,8 @@
 			fmt.Println(t.S)
 		}
 
-		var i I
+		var i I 
+		// i.M() is not working. A nil interface value holds neither value nor concrete type. Error
 		var t *T
 		i = t
 		i.M() // there is no null pointer exception, it's working <nil>
