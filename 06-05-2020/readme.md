@@ -105,3 +105,6 @@
 		i = t
 		i.M() // there is no null pointer exception, it's working <nil>
 	```
+- The empty interface. 
+	- An empty interface may hold values of any type.
+	- Empty interfaces are used by code that handles values of unknown type
