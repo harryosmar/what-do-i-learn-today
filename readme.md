@@ -15,6 +15,10 @@
 	* [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 	* [prune](https://github.com/harryosmar/what-do-i-learn-today/blob/master/21-01-2019/readme.md#git-prune)
 	* [remote prune](https://github.com/harryosmar/what-do-i-learn-today/blob/master/21-01-2019/readme.md#git-remote-prune)
+* [Go](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#go-tips)
+	- [go routines](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#routines)
+	- [methods & pointer](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#pointer)
+	- [interface](https://github.com/harryosmar/what-do-i-learn-today/blob/master/06-05-2020/readme.md#interface)
 * PHP
 	* [Closure](https://github.com/harryosmar/sample-phpunit-test/blob/closure/tests/unit/CallbackTest.php)
 	* [Magic Method __invoke](https://github.com/harryosmar/what-do-i-learn-today/tree/master/24-01-2019/readme.md#php-magic-method-__invoke)
