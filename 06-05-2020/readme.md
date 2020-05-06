@@ -77,6 +77,7 @@
 			return float64(f)
 		}
 
-		var a Abser = MyFloat(-math.Sqrt2) // a MyFloat implements Abser
+		var a Abser = MyFloat(3.14159265358979) // a MyFloat implements Abser
+		describe(a) // (value, type) (3.141592653589793, main.MyFloat)
 	```
 - Interfaces are implemented implicitly. There is no explicit declaration of intent, **no "implements" keyword.**
