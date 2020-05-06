@@ -60,3 +60,4 @@
 		```
 		`p.Abs()` is interpreted as `(*p).Abs().`
 - Choosing a value or pointer receiver. In general, all methods on a given type should have either value or pointer receivers, but **not a mixture of both**.
+- An interface type is defined as a set of method signatures.
