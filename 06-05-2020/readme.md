@@ -81,3 +81,26 @@
 		fmt.Printf("(%v, %T)\n", a, a) // (value, type) (3.141592653589793, main.MyFloat)
 	```
 - Interfaces are implemented implicitly. There is no explicit declaration of intent, **no "implements" keyword.**
+- Interface values with nil underlying values. In some languages this would trigger a null pointer exception, but in Go it is common to write methods that gracefully handle being called with a **nil receiver.**
+	```go
+		type I interface {
+			M()
+		}
+
+		type T struct {
+			S string
+		}
+
+		func (t *T) M() {
+			if t == nil {
+				fmt.Println("<nil>")
+				return
+			}
+			fmt.Println(t.S)
+		}
+
+		var i I
+		var t *T
+		i = t
+		i.M() // there is no null pointer exception, it's working <nil>
+	```
