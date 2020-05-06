@@ -78,6 +78,6 @@
 		}
 
 		var a Abser = MyFloat(3.14159265358979) // a MyFloat implements Abser
-		describe(a) // (value, type) (3.141592653589793, main.MyFloat)
+		fmt.Printf("(%v, %T)\n", a, a) // (value, type) (3.141592653589793, main.MyFloat)
 	```
 - Interfaces are implemented implicitly. There is no explicit declaration of intent, **no "implements" keyword.**
