@@ -60,4 +60,26 @@
 		```
 		`p.Abs()` is interpreted as `(*p).Abs().`
 - Choosing a value or pointer receiver. In general, all methods on a given type should have either value or pointer receivers, but **not a mixture of both**.
-- An interface type is defined as a set of method signatures.
+
+## Interface
+
+- interface type is defined as a set of method signatures.
+	```go
+		type Abser interface {
+			Abs() float64
+		}
+		
+		type MyFloat float64
+		func (f MyFloat) Abs() float64 {
+			if f < 0 {
+				return float64(-f)
+			}
+			return float64(f)
+		}
+
+		var a Abser
+		f := MyFloat(-math.Sqrt2)
+
+		a = f  // a MyFloat implements Abser
+	```
+- Interfaces are implemented implicitly. There is no explicit declaration of intent, **no "implements" keyword.**
