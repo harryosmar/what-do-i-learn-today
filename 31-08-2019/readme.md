@@ -101,15 +101,11 @@ xdebug.remote_connect_back=1
 
 ### Node, NPM
 
+https://github.com/nvm-sh/nvm#installing-and-updating
+
 ```
-curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh \
-	&& bash install_nvm.sh \
-	&& source ~/.profile \
-	&& nvm ls-remote \
-	&& nvm install v8.16.1 \
-	&& nvm use v8.16.1 \
-	&& node -v \
-	&& npm -v
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash \
+	&& nvm install node
 ```
 
 ### Docker
