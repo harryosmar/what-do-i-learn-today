@@ -62,11 +62,11 @@ sudo apt-get install -y \
 
 ```
 sudo apt-get install -y \
-   php7.2 \
+   php7.4 \
    php-xdebug \
-   php7.2-xml \
-   php7.2-zip \
-   php7.2-mysql \
+   php7.4-xml \
+   php7.4-zip \
+   php7.4-mysql \
    php-mbstring \
    php-gd
 ```
