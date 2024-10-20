@@ -41,3 +41,4 @@
 	* [Idempotence](https://github.com/harryosmar/what-do-i-learn-today/tree/master/05-02-2019/readme.md#idempotence)
 * Installation
 	* [Clean Install dualboot windows10 & ubuntu on DELL XPS 15 9570](https://github.com/harryosmar/what-do-i-learn-today/blob/master/31-08-2019/readme.md)
+* [Micro Frontend](https://github.com/harryosmar/what-do-i-learn-today/blob/master/2024-10-20/readme.md#micro-frontend)
