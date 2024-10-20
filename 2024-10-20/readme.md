@@ -43,8 +43,8 @@ npx create-mf-app
     - Another solution : Create shared library to manage the contract of typescript
 - **State management** :
   - Module federation doesn't share state
-  - The host need to maintain the context
-    ![shared-host-state](https://github.com/harryosmar/what-do-i-learn-today/blob/master/2024-10-20/arch1.png)
+  - 1. option The host need to maintain the context ![shared-host-state](https://github.com/harryosmar/what-do-i-learn-today/blob/master/2024-10-20/arch1.png)
+  - 2. Option Have separate library for state management ![shared-host-state](https://github.com/harryosmar/what-do-i-learn-today/blob/master/2024-10-20/arch2.png)
   - State manager choices : 
     - https://redux.js.org/, 
     - https://zustand-demo.pmnd.rs/ , 
